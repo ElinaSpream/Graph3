@@ -230,7 +230,7 @@ int main()
 		double P1 = 0.3; // Угол тета 
 		double P2 = 80.0; // Угол фи
 		const char* inputfile = "C:\\Users\\rybalko_pu\\Documents\\Study\\3 курс\\2 модуль\\Компьютерная графика\\Лаб 3\\Cube.dat"; // Путь до файла координат
-		//const char* filename = "C:\\Users\\rybalko_pu\\Documents\\Study\\3 курс\\2 модуль\\Компьютерная графика\\Лаб 3\\House.dat";
+		//const char* inputfile = "C:\\Users\\rybalko_pu\\Documents\\Study\\3 курс\\2 модуль\\Компьютерная графика\\Лаб 3\\House.dat";
 		surface s1;
 		s1.load(inputfile);
 		for (int i = 1; i < 10; i++) { // Движение точки наблюдения
